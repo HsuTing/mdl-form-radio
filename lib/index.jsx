@@ -24,6 +24,7 @@ export default class radio extends React.Component {
                   name={data.id}
                   value={d.value}
                   onClick={this._click.bind(this)}
+                  defaultChecked={d.isChecked}
                 />
                 <span className="mdl-radio__label">{d.label}</span>
               </label>

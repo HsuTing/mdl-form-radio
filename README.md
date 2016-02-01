@@ -16,6 +16,7 @@ You need to see [mdl-form](https://github.com/HsuTing/mdl-form.git).
   * `style` -> change the style of this radio
   * `value` -> this radio value
   * `label` -> name of this radio
+  * `isChecked` -> if you use `isChecked: true`, it will be checked.
 - `isNotRequire` -> if you use `isNotRequire: true`, it can be empty.
 - `change`(function) -> you can do something when radio is click. `1st` argument is this component value.
 
