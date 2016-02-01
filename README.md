@@ -7,6 +7,8 @@ Install package:
   npm install jquery react react-dom mdl-form
 ```
 
+You need to see [mdl-form](https://github.com/HsuTing/mdl-form.git).
+
 ## Parameter
 
 - `style` -> change style
