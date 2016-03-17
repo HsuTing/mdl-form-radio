@@ -1,6 +1,6 @@
 {
   "name": "mdl-form-radio",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "radio for mdl-form",
   "main": "./lib/index.js",
   "scripts": {

@@ -14,7 +14,11 @@ export default class radio extends React.Component {
     }
     else {
       return (
-        <div ref="component" id={data.id} style={data.style}>
+        <div ref="component"
+             id={data.id}
+             className={data.className === undefined ? "" : data.className}
+             style={data.style}
+        >
           {data.item.map((d, i) => {
             return (
               <label key={i} className="mdl-radio mdl-js-radio mdl-js-ripple-effect" htmlFor={data.id + "-" + i} style={d.style}>
