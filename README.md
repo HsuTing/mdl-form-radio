@@ -4,7 +4,7 @@
 
 Install package:
 ```
-  npm install jquery react react-dom mdl-form mdl-form-radio
+  npm install mdl-form mdl-form-radio react jquery
 ```
 
 You need to see [mdl-form](https://github.com/HsuTing/mdl-form.git).
@@ -12,6 +12,7 @@ You need to see [mdl-form](https://github.com/HsuTing/mdl-form.git).
 ## Parameter
 
 - `style` -> change style
+- `className` -> class
 - `item` -> array of radios
   * `style` -> change the style of this radio
   * `value` -> this radio value
@@ -25,6 +26,7 @@ You need to see [mdl-form](https://github.com/HsuTing/mdl-form.git).
 ```
 {   
   'id': 'component_id',
+  'className': 'class',
   'item': [
     {
       'style': {'color': 'red'},
